@@ -769,7 +769,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &472781958
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1341,6 +1341,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99a14dbd38a0b774e8e2caf2bfce7c2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentPlayerName: 
+  bestScorePlayer: 
+  bestScore: 0
 --- !u!4 &872237118
 Transform:
   m_ObjectHideFlags: 0
@@ -1349,11 +1352,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 872237116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1073, y: 535.9, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &880169480
 GameObject:
@@ -2048,6 +2051,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f125446ba3abbe84391c407173019719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerNameInputField: {fileID: 552012289}
+  warningText: {fileID: 435246524}
+  bestScoreText: {fileID: 1223583868}
 --- !u!4 &1675868222
 Transform:
   m_ObjectHideFlags: 0
@@ -2056,11 +2062,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675868220}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1073, y: 535.9, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1710238713
 GameObject:
@@ -2339,7 +2345,7 @@ Transform:
   m_GameObject: {fileID: 2039639781}
   m_LocalRotation: {x: 0, y: -0.061048605, z: 0, w: 0.99813485}
   m_LocalPosition: {x: 0, y: -0, z: 0.11}
-  m_LocalScale: {x: 2, y: 1, z: 2}
+  m_LocalScale: {x: 3.43, y: 1, z: 2}
   m_Children: []
   m_Father: {fileID: 1710238717}
   m_RootOrder: 0
